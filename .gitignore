@@ -1,0 +1,32 @@
+# Environment variables
+.env
+
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+/bin/
+/dist/
+
+# Go workspace file
+go.work
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# SQLC generated files (optional - remove this line if you want to commit generated code)
+# db/sqlc/*.go
+# !db/sqlc/query.sql
+# !db/sqlc/sqlc.yaml
